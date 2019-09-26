@@ -17,6 +17,8 @@
 
 ( (3 + 5) * 6 )
 
+cos(pi) * 2
+
 # Placeholder: Add R code here
 
 #' 2. Basic Plotting
