@@ -1,5 +1,5 @@
 ---
-title: "Main entry point"
+title: "hw1"
 author: "Kirill Müller"
 date: "10/10/2019"
 output: html_document
@@ -9,3 +9,11 @@ site: '{ lapply(dir(pattern = "[.]R$"), knitr::spin, knit = FALSE); rmarkdown::d
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+- Solutions to [lesson 1](lesson01.html)
+
+- Solutions to [lesson 2](lesson02.html)
+
+- Solutions to [lesson 3](lesson03.html)
+
+- Solutions to [lesson 4](lesson04.html)
