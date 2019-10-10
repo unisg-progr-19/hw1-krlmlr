@@ -19,3 +19,8 @@ Many technical problems will vanish if you use the latest version of R (3.6.1) a
 - Follow the steps described in `lesson01.R`.
 - Make some changes, commit and push.
 - Your changes should now be visible in GitHub.
+
+## Knitting into `docs/`
+
+The two files `_site.yml` and `index.Rmd` ensure that the output for all "knit document" tasks is copied to the `docs/` directory, where it is picked up by GitHub Pages.
+You can copy these files into your repositories to enable this feature.
