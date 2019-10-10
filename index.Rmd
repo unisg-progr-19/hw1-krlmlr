@@ -3,6 +3,7 @@ title: "hw1"
 author: "Kirill Müller"
 date: "10/10/2019"
 output: html_document
+# Hack!
 site: '{ lapply(dir(pattern = "[.]R$"), knitr::spin, knit = FALSE); rmarkdown::default_site_generator }'
 ---
 
