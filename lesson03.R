@@ -38,7 +38,7 @@ library(tidyverse)
 #'
 #' https://krlmlr.github.io/vistransrep/2019-09-unisg/ggplot2.html
 #'
-#' sections 1-3.
+#' sections 4 and 6.
 #'
 #' The website already includes solutions to the exercises.
 #' Therefore, please include an explanation what happens in your code
