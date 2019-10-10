@@ -1,1 +1,4 @@
+# Default output directory:
 output_dir: docs
+# Directories to exclude:
+exclude: [ "data" ]
