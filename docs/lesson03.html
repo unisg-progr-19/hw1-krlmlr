@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>lesson03.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="assignment-set-1-lesson-3" class="section level2">
+<h2>Assignment Set 1: Lesson 3</h2>
+<p>Add R Code under the questions. If you are done, ‘knit’ the document, commit and push to GitHub. You can use GitHub Pages if you like, add links to README.md to make it easier to find the pretty version.</p>
+<ol start="0" style="list-style-type: decimal">
+<li><p>If you have started with a repository based on the “hw2” template, please copy lesson02.R and your results into your “hw1” repository using Explorer or Finder and add to GitHub.</p></li>
+<li><p>Data transformation</p></li>
+</ol>
+<p>Solve your choice of 12 exercises at</p>
+<p><a href="https://krlmlr.github.io/vistransrep/2019-09-unisg/dplyr.html" class="uri">https://krlmlr.github.io/vistransrep/2019-09-unisg/dplyr.html</a></p>
+<p>sections 1-2 and 4-7.</p>
+<p>The website already includes solutions to the exercises. Therefore, please include an explanation what happens in your code as a comment.</p>
+<p>Resources:</p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/data-visualisation.html" class="uri">https://r4ds.had.co.nz/data-visualisation.html</a>, Sections 5.1-5.5</li>
+<li><a href="https://krlmlr.github.io/vistransrep/book/visualization.html" class="uri">https://krlmlr.github.io/vistransrep/book/visualization.html</a>, 3.2-3.6</li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" class="uri">https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf</a></li>
+</ul>
+<pre class="r"><code># install.packages(&quot;tidyverse&quot;)
+library(tidyverse)
+
+# Placeholder: Add R code here</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Layers and facets</li>
+</ol>
+<p>Solve your choice of 8 exercises at</p>
+<p><a href="https://krlmlr.github.io/vistransrep/2019-09-unisg/ggplot2.html" class="uri">https://krlmlr.github.io/vistransrep/2019-09-unisg/ggplot2.html</a></p>
+<p>sections 4 and 6.</p>
+<p>The website already includes solutions to the exercises. Therefore, please include an explanation what happens in your code as a comment.</p>
+<p>Resources:</p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/data-visualisation.html" class="uri">https://r4ds.had.co.nz/data-visualisation.html</a>, Sections 3.5-3.6</li>
+<li><a href="https://krlmlr.github.io/vistransrep/book/visualization.html" class="uri">https://krlmlr.github.io/vistransrep/book/visualization.html</a>, 2.3 and 2.5</li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf" class="uri">https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf</a> Bonus:</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Workflow</li>
+</ol>
+<p>Solve the “RMarkdown workflow” exercise at <a href="https://krlmlr.github.io/vistransrep/2019-09-unisg/rmarkdown-workflow.html" class="uri">https://krlmlr.github.io/vistransrep/2019-09-unisg/rmarkdown-workflow.html</a></p>
+<p>Create new directories in this repository.</p>
+<p>Resources:</p>
+<ul>
+<li><code>?saveRDS</code>: <a href="https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/readRDS" class="uri">https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/readRDS</a></li>
+<li>here: <a href="https://github.com/jennybc/here_here#readme" class="uri">https://github.com/jennybc/here_here#readme</a></li>
+</ul>
+<pre class="r"><code># Do not add R code, create new directories and files</code></pre>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
